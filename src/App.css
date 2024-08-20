@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.nav{
+  display: flex;
+  height: 70px;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+ img{
+  margin-left: 50px;
+}
+ul, li{
+  display: flex;
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.allData{
+  display: flex;
+}
+.aside {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of the boxes */
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.box {
+  width: calc(50% - 30px); /* Adjust width to take half of the available space minus the gap */
+  margin-top: 20px;
+}
+
+.data{  border-radius: 15px;
+  background-color: rgb(255, 141, 141);
+  height: 170px;
+}
+ button{
+  margin-left: 130px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(255, 141, 141);
+  border-radius: 10px;
+}
+.cart{
+  height: 400px; /* Adjusted height for better viewability */
+  margin-left: 850px;
+  margin-top: 20px;
+  position: fixed;
+  width: 36%;
+  border-radius: 10px;
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 10px; /* Optional: Add some padding */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: white;
+}
+.cart h2{
+  text-align: center;
+
+}
